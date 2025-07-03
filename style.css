@@ -1,0 +1,121 @@
+body {
+  background: gray;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+}
+.card1 {
+  border: 8px solid rgb(240, 235, 227);
+  background-color: orange;
+  text-align: center;
+  width: 13.5%;
+  height: 8%;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  padding: 15px;
+  color: #fff;
+  position: relative;
+}
+.text {
+  margin: 43px 0;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: -15px;
+}
+h3 {
+  margin-bottom: -10px;
+}
+p {
+  font-size: small;
+}
+.circle {
+  position: absolute;
+  top: 23px;
+  left: -35px;
+  border: 8px solid rgb(255, 157, 0);
+  box-shadow: inset;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+.inside {
+  font-size: small;
+  margin: 10px 5px 1px;
+  background: orange;
+  border-radius: 50%;
+  margin: auto;
+  padding: 8px;
+  border: 3px solid rgb(244, 241, 236);
+}
+.inside-text {
+  border: 5px solid white;
+  border-radius: 50%;
+  margin: auto;
+}
+.right {
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.right .circle {
+  left: 180px;
+}
+.second {
+  border: 10px solid rgb(240, 233, 227);
+  background-color: rgb(99, 2, 90);
+  text-align: center;
+  width: 14%;
+  height: 14%;
+  padding: 25px;
+  color: #fff;
+  position: relative;
+}
+.second .right-circle {
+  left: 205px;
+}
+.third {
+  border: 10px solid rgb(240, 233, 227);
+  background-color: rgb(2, 42, 99);
+  text-align: center;
+  width: 15%;
+  height: 15%;
+  padding: 30px;
+  color: #fff;
+  position: relative;
+}
+.third .right-circle {
+  left: 225px;
+}
+.mt {
+  margin-top: -23px;
+}
+.ml {
+  margin-top: 45px;
+}
+.box2 .circle {
+  border: 10px solid rgb(255, 0, 81);
+}
+.box2 .inside {
+  background: rgb(99, 2, 90);
+  border-radius: 50%;
+  margin: auto;
+  padding: 8px;
+  border: 3px solid rgb(244, 241, 236);
+}
+.box3 .circle {
+  border: 10px solid rgb(8, 95, 129);
+}
+.box3 .inside {
+  background: rgb(2, 42, 99);
+  border-radius: 50%;
+  margin: auto;
+  padding: 8px;
+  border: 3px solid rgb(244, 241, 236);
+}
+h2{
+  text-align: center;
+}
